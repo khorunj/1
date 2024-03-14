@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "homework8-py"
+version = "0.1.0"
+description = "Personal Assistent"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "homework8"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
